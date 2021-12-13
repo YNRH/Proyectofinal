@@ -1,11 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>mmiaaffa</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stilos.css">
+    <title>Document</title>
 </head>
 <body>
+	<header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<h1>Logotipo</h1>
+			</div>
+			<nav class="menu">
+				<a href="#">Inicio</a>
+				<a href="#">Nosotros</a>
+				<a href="#">Blog</a>
+				<a href="contacto.html">Contacto</a>
+			</nav>
+		</div>
+	</header>
+	<div class="capa"></div>
 
+<!---  menu   -->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="#">Portafolio</a>
+			<a href="#">Servicios</a>
+			<a href="#">Suscribirse</a>
+			<a href="#">Facebook</a>
+			<a href="#">Youtube</a>
+			<a href="#">Instagram</a>
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+</div>
+<!------------- SLIDER -------->
+<div class="slider">
+    <ul>
+        <li>
+            <img src="https://i.pinimg.com/originals/74/52/db/7452db2aafa89196801ef4fe680137e0.jpg">
+        </li>
+        <li>
+            <img src="https://s1.1zoom.me/big0/160/354276-admin.jpg">
+        </li>
+        <li>
+            <img src="https://mobimg.b-cdn.net/pic/v2/gallery/preview/goroda-pejzazh-ulicy-22228.jpg">
+        </li>
+        <li>
+            <img src="http://2.bp.blogspot.com/-dNtt1v-HAOE/UFdRpT_pY9I/AAAAAAAABXw/gBzxja1td3Y/s1600/fondos-escritorio-ciudades-1280.jpg">
+        </li>
+    </ul>
+</div>
+
+<!--	INICIO --------------->
+<div class="conteiner_somos">
+<div class="somos">
+       
+    <div class="card">
+        <img src="img/img1.png">
+        <h4>Naturaleza</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+        <a href="#">Leer más</a>
+    </div>
+    
+    <div class="card">
+        <img src="img/img2.jpg">
+        <h4>Comida</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+        <a href="#">Leer más</a>
+    </div>
+    
+    <div class="card">
+        <img src="img/img3.jfif">
+        <h4>Tecnología</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+        <a href="#">Leer más</a>
+    </div>
+    
+</div>
+</div>
+
+<!------ CONTACTO  --------->
+<div class="container-contacto">
+    <div class="content-contacto">
+        <div class="info-contacto">
+            <h2>Información</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam soluta rem impedit minus doloremque id itaque suscipit unde. Sapiente, dolor.</p>
+            <div class="contacto">
+                <a href="#">
+                    <i class="fa fa-phone"></i>
+                    <span>+51 9332801334</span>
+                </a>
+                <a href="#">
+                    <i class="fa fa-envelope"></i>
+                    <span>usuario@gmail.com</span>
+                </a>
+                <a href="#">
+                    <i class="fa fa-map-marked"></i>
+                    <span>Arequipa, Arequipa, Perú</span>
+                </a>
+            </div>
+        </div>
+        <div class="formulario">
+            <h2>Contacto</h2>
+            <form action="#" class="form">
+                <input type="text" name="nombre" placeholder="Nombre Completo" class="campo" required>
+                <div class="box">
+                    <input type="text" name="nombre" placeholder="Email" class="campo" required>
+                    <input type="text" name="nombre" placeholder="Asunto" class="campo" required>
+                </div>
+                <textarea name="mensaje" id="mensaje" placeholder="Mensaje..." class="campo"></textarea>
+                <input type="submit" name="btnenviar" value="Enviar mensaje" class="boton">
+            </form>
+        </div>
+    </div>
+</div>
 </body>
 </html>
